@@ -1,0 +1,12 @@
+C:\Users\swag\documents\visual studio 2013\Projects\OpenSourceBrowser\OpenSourceBrowser\bin\x86\Debug\OpenSourceBrowser.exe.config
+C:\Users\swag\documents\visual studio 2013\Projects\OpenSourceBrowser\OpenSourceBrowser\obj\x86\Debug\OpenSourceBrowser.Form1.resources
+C:\Users\swag\documents\visual studio 2013\Projects\OpenSourceBrowser\OpenSourceBrowser\obj\x86\Debug\OpenSourceBrowser.Properties.Resources.resources
+C:\Users\swag\documents\visual studio 2013\Projects\OpenSourceBrowser\OpenSourceBrowser\obj\x86\Debug\OpenSourceBrowser.Settings.resources
+C:\Users\swag\documents\visual studio 2013\Projects\OpenSourceBrowser\OpenSourceBrowser\obj\x86\Debug\OpenSourceBrowser.csproj.GenerateResource.Cache
+C:\Users\swag\documents\visual studio 2013\Projects\OpenSourceBrowser\OpenSourceBrowser\obj\x86\Debug\OpenSourceBrowser.csprojResolveAssemblyReference.cache
+C:\Users\swag\documents\visual studio 2013\Projects\OpenSourceBrowser\OpenSourceBrowser\bin\x86\Debug\OpenSourceBrowser.exe
+C:\Users\swag\documents\visual studio 2013\Projects\OpenSourceBrowser\OpenSourceBrowser\bin\x86\Debug\OpenSourceBrowser.pdb
+C:\Users\swag\documents\visual studio 2013\Projects\OpenSourceBrowser\OpenSourceBrowser\bin\x86\Debug\Geckofx-Core.dll
+C:\Users\swag\documents\visual studio 2013\Projects\OpenSourceBrowser\OpenSourceBrowser\bin\x86\Debug\Geckofx-Winforms.dll
+C:\Users\swag\documents\visual studio 2013\Projects\OpenSourceBrowser\OpenSourceBrowser\obj\x86\Debug\OpenSourceBrowser.exe
+C:\Users\swag\documents\visual studio 2013\Projects\OpenSourceBrowser\OpenSourceBrowser\obj\x86\Debug\OpenSourceBrowser.pdb
