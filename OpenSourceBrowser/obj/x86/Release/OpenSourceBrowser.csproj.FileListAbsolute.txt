@@ -9,3 +9,4 @@ C:\Users\swag\documents\visual studio 2013\Projects\OpenSourceBrowser\OpenSource
 C:\Users\swag\documents\visual studio 2013\Projects\OpenSourceBrowser\OpenSourceBrowser\obj\x86\Release\OpenSourceBrowser.csproj.GenerateResource.Cache
 C:\Users\swag\documents\visual studio 2013\Projects\OpenSourceBrowser\OpenSourceBrowser\obj\x86\Release\OpenSourceBrowser.exe
 C:\Users\swag\documents\visual studio 2013\Projects\OpenSourceBrowser\OpenSourceBrowser\obj\x86\Release\OpenSourceBrowser.pdb
+C:\Users\swag\documents\visual studio 2013\Projects\OpenSourceBrowser\OpenSourceBrowser\obj\x86\Release\OpenSourceBrowser.csprojResolveAssemblyReference.cache
