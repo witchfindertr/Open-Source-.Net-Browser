@@ -49,7 +49,7 @@ namespace OpenSourceBrowser.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("http://icyforums.net")]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://hackforums.net")]
         public string lastpage {
             get {
                 return ((string)(this["lastpage"]));

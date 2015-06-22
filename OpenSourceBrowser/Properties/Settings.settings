@@ -9,7 +9,7 @@
       <Value Profile="(Default)">yes</Value>
     </Setting>
     <Setting Name="lastpage" Type="System.String" Scope="User">
-      <Value Profile="(Default)">http://icyforums.net</Value>
+      <Value Profile="(Default)">http://hackforums.net</Value>
     </Setting>
     <Setting Name="Setting" Type="System.String" Scope="Application">
       <Value Profile="(Default)" />

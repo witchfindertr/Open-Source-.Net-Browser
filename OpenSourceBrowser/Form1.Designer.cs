@@ -136,9 +136,9 @@
             this.webBrowser1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.webBrowser1.Location = new System.Drawing.Point(3, 31);
+            this.webBrowser1.Location = new System.Drawing.Point(-7, 31);
             this.webBrowser1.Name = "webBrowser1";
-            this.webBrowser1.Size = new System.Drawing.Size(1044, 550);
+            this.webBrowser1.Size = new System.Drawing.Size(1054, 550);
             this.webBrowser1.TabIndex = 7;
             this.webBrowser1.UseHttpActivityObserver = false;
             this.webBrowser1.Navigating += new System.EventHandler<Gecko.Events.GeckoNavigatingEventArgs>(this.webBrowser1_Navigating);
