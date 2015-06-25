@@ -45,9 +45,26 @@ namespace OpenSourceBrowser
         {
             Gecko.GeckoPreferences.User["network.proxy.type"] = 1;
             Gecko.GeckoPreferences.User["network.proxy.http"] = textBox2.Text;
-            Gecko.GeckoPreferences.User["network.proxy.http_port"] = int.Parse(textBox3.Text);
-            Gecko.GeckoPreferences.User["network.proxy.login"] = textBox4.Text;
-            Gecko.GeckoPreferences.User["network.proxy.password"] = textBox5.Text;
+            Gecko.GeckoPreferences.User["network.proxy.http_port"] = int.Parse(textBox5.Text);
+            if (checkBox2.Checked)
+            {
+                Gecko.GeckoPreferences.User["network.proxy.login"] = textBox4.Text;
+                Gecko.GeckoPreferences.User["network.proxy.password"] = textBox3.Text;
+            }
+        }
+
+        private void checkBox2_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox2.Checked)
+            {
+                textBox4.Enabled = true;
+                textBox3.Enabled = true;
+            }
+            else
+            {
+                textBox4.Enabled = false;
+                textBox3.Enabled = false;
+            }
         }
     }
 }
