@@ -143,9 +143,11 @@
             this.tabControl1.Location = new System.Drawing.Point(-3, 33);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1050, 533);
+            this.tabControl1.Size = new System.Drawing.Size(1050, 549);
             this.tabControl1.TabIndex = 8;
+            this.tabControl1.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.tabControl1_DrawItem);
             this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.tabControl1_SelectedIndexChanged);
+            this.tabControl1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.tabControl1_MouseDown);
             // 
             // pictureBox6
             // 
