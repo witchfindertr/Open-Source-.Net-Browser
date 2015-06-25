@@ -35,5 +35,19 @@ namespace OpenSourceBrowser
         {
             Properties.Settings.Default.homepage = textBox1.Text;
         }
+
+        private void Settings_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void s_proxy_Click(object sender, EventArgs e)
+        {
+            Gecko.GeckoPreferences.User["network.proxy.type"] = 1;
+            Gecko.GeckoPreferences.User["network.proxy.http"] = textBox2.Text;
+            Gecko.GeckoPreferences.User["network.proxy.http_port"] = int.Parse(textBox3.Text);
+            Gecko.GeckoPreferences.User["network.proxy.login"] = textBox4.Text;
+            Gecko.GeckoPreferences.User["network.proxy.password"] = textBox5.Text;
+        }
     }
 }
