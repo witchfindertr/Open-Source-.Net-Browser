@@ -147,21 +147,6 @@ namespace OpenSourceBrowser
             i += 1;
         }
 
-        private void pictureBox7_Click(object sender, EventArgs e)
-        {
-            if(tabControl1.TabPages.Count - 1 > 0) 
-            {
-                tabControl1.TabPages.RemoveAt(tabControl1.SelectedIndex);
-                tabControl1.SelectTab(tabControl1.TabPages.Count - 1);
-                i -= 1;
-            }
-        }
-
-        private void tabControl1_DrawItem(object sender, DrawItemEventArgs e)
-        {
-
-        }
-
         private void tabControl1_MouseDown(object sender, MouseEventArgs e)
         {
             //Looping through the controls.
