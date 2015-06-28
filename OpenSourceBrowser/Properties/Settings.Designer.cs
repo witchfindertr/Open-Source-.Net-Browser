@@ -25,7 +25,7 @@ namespace OpenSourceBrowser.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("http://hackforums.net")]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://google.com")]
         public string homepage {
             get {
                 return ((string)(this["homepage"]));
@@ -37,7 +37,7 @@ namespace OpenSourceBrowser.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("yes")]
+        [global::System.Configuration.DefaultSettingValueAttribute("no")]
         public string cont {
             get {
                 return ((string)(this["cont"]));
@@ -49,7 +49,7 @@ namespace OpenSourceBrowser.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("http://hackforums.net")]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string lastpage {
             get {
                 return ((string)(this["lastpage"]));

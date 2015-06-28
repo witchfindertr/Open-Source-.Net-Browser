@@ -65,7 +65,7 @@ namespace OpenSourceBrowser
         private void webBrowser1_DocumentCompleted(object sender, Gecko.Events.GeckoDocumentCompletedEventArgs e)
         {
             textBox1.Text = ((GeckoWebBrowser)tabControl1.SelectedTab.Controls[0]).Url.ToString();
-            tabControl1.SelectedTab.Text = ((GeckoWebBrowser)tabControl1.SelectedTab.Controls[0]).DocumentTitle + " | .Net Open Source Browser";
+            tabControl1.SelectedTab.Text = ((GeckoWebBrowser)tabControl1.SelectedTab.Controls[0]).DocumentTitle + " | .Net Open Source Browser X";
             pictureBox3.Image = Properties.Resources.refresh;
             nav = false;
         }
@@ -139,7 +139,7 @@ namespace OpenSourceBrowser
             webBrowser1.Dock = DockStyle.Fill;
             webBrowser1.Visible = true;
             webBrowser1.DocumentCompleted += webBrowser1_DocumentCompleted;
-            tabControl1.TabPages.Add("New Tab");
+            tabControl1.TabPages.Add("New Tab X");
             tabControl1.SelectTab(i);
             tabControl1.SelectedTab.Controls.Add(webBrowser1);
             textBox1.Text = ((GeckoWebBrowser)tabControl1.SelectedTab.Controls[0]).Url.ToString();
@@ -159,9 +159,7 @@ namespace OpenSourceBrowser
 
         private void tabControl1_DrawItem(object sender, DrawItemEventArgs e)
         {
-            e.Graphics.DrawString("X    ", e.Font, Brushes.Red, e.Bounds.Right, e.Bounds.Top + 4);
-            e.Graphics.DrawString(this.tabControl1.TabPages[e.Index].Text, e.Font, Brushes.Black, e.Bounds.Left + 2, e.Bounds.Top + 4);
-            e.DrawFocusRectangle();
+
         }
 
         private void tabControl1_MouseDown(object sender, MouseEventArgs e)
@@ -171,7 +169,7 @@ namespace OpenSourceBrowser
             {
                 Rectangle r = tabControl1.GetTabRect(ia);
                 //Getting the position of the "x" mark.
-                Rectangle closeButton = new Rectangle(r.Right, r.Top + 4, 9, 7);
+                Rectangle closeButton = new Rectangle(r.Right - 15, r.Top + 4, 9, 7);
                 if (closeButton.Contains(e.Location))
                 {
                     if (tabControl1.TabPages.Count > 1)
@@ -195,7 +193,7 @@ namespace OpenSourceBrowser
             webBrowser1.Visible = true;
             webBrowser1.DocumentCompleted += webBrowser1_DocumentCompleted;
             tabControl1.TabPages.Add("New Tab");
-            tabControl1.SelectTab(i);
+            //tabControl1.SelectTab(i);
             tabControl1.SelectedTab.Controls.Add(webBrowser1);
             textBox1.Text = ((GeckoWebBrowser)tabControl1.SelectedTab.Controls[0]).Url.ToString();
             ((GeckoWebBrowser)tabControl1.SelectedTab.Controls[0]).Navigate(Properties.Settings.Default.homepage);
