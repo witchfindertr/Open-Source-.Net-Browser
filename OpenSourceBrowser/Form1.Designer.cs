@@ -37,14 +37,12 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.SuspendLayout();
             // 
             // textBox1
@@ -54,7 +52,7 @@
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
             this.textBox1.Location = new System.Drawing.Point(136, 2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(810, 23);
+            this.textBox1.Size = new System.Drawing.Size(837, 23);
             this.textBox1.TabIndex = 1;
             this.textBox1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox1_KeyDown);
             // 
@@ -126,7 +124,7 @@
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.Image = global::OpenSourceBrowser.Properties.Resources.settings;
-            this.pictureBox1.Location = new System.Drawing.Point(952, 2);
+            this.pictureBox1.Location = new System.Drawing.Point(979, 2);
             this.pictureBox1.MaximumSize = new System.Drawing.Size(25, 25);
             this.pictureBox1.MinimumSize = new System.Drawing.Size(25, 25);
             this.pictureBox1.Name = "pictureBox1";
@@ -154,7 +152,7 @@
             this.pictureBox6.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox6.Image = global::OpenSourceBrowser.Properties.Resources.newtab;
-            this.pictureBox6.Location = new System.Drawing.Point(983, 2);
+            this.pictureBox6.Location = new System.Drawing.Point(1010, 2);
             this.pictureBox6.MaximumSize = new System.Drawing.Size(25, 25);
             this.pictureBox6.MinimumSize = new System.Drawing.Size(25, 25);
             this.pictureBox6.Name = "pictureBox6";
@@ -163,27 +161,12 @@
             this.pictureBox6.TabStop = false;
             this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox7.Image = global::OpenSourceBrowser.Properties.Resources.stop;
-            this.pictureBox7.Location = new System.Drawing.Point(1014, 2);
-            this.pictureBox7.MaximumSize = new System.Drawing.Size(25, 25);
-            this.pictureBox7.MinimumSize = new System.Drawing.Size(25, 25);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(25, 25);
-            this.pictureBox7.TabIndex = 10;
-            this.pictureBox7.TabStop = false;
-            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(1047, 578);
-            this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.pictureBox5);
@@ -204,7 +187,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -220,7 +202,6 @@
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox7;
     }
 }
 
